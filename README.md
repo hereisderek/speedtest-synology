@@ -9,6 +9,10 @@ This is a very lightweight Speedtest implemented in Javascript, using XMLHttpReq
 ## Try it
 [Take a Speedtest](https://librespeed.org)
 
+## this fork fixes the crash on synology DSM 6.2 and 7
+same usage as the official container, but use `docker pull hereisderek/speedtest:latest` instead.
+I probably wouldn't be updating this image, file an issue if you want me to merge upstream changes. 
+
 ## Compatibility
 All modern browsers are supported: IE11, latest Edge, latest Chrome, latest Firefox, latest Safari.  
 Works with mobile versions too.
